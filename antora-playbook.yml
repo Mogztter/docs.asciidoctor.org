@@ -6,8 +6,8 @@ site:
   start_page: asciidoctor::index.adoc
 content:
   sources:
-  - url: &asciidoctor-url https://github.com/asciidoctor/asciidoctor.git
-    branches: &asciidoctor-branches v1.5.7-docs
+  - url: &asciidoctor-url https://github.com/graphitefriction/asciidoctor.git
+    branches: &asciidoctor-branches new-docs
     start_path: docs/asciidoc
   - url: *asciidoctor-url
     branches: *asciidoctor-branches
